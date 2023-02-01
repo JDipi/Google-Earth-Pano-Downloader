@@ -67,6 +67,7 @@ j < 32
 
   const getPhotoSpherePano = (key) => {
     let url = $("#preview-image").attr("src").replace(/=w.*/gm, "=w16383");
+    console.log("Generating High Resolution URL...")
     $.ajax({
       type: "GET",
       url,
@@ -79,19 +80,20 @@ j < 32
           $("#thumbnail").attr("src", "data:image/jpg;base64,");
           return;
         }
-
+        
         var binary = "";
         var responseText = jqXHR.responseText;
         var responseTextLen = responseText.length;
-
+        
         for (let k = 0; k < responseTextLen; k++) {
           binary += String.fromCharCode(responseText.charCodeAt(k) & 255);
         }
-
+        
         fetch(`data:image/jpg;base64,${btoa(binary)}`)
-          .then((res) => res.blob())
-          .then((blob) => {
-            saveAs(blob, `${$(".R5MShd.Mqf7lf").text()}.png`);
+        .then((res) => res.blob())
+        .then((blob) => {
+            console.log("Downloading...")
+            saveAs(blob, `photosphere.jpg`);
           });
       },
       error: function (xhr, textStatus, errorThrown) {
