@@ -73,19 +73,21 @@ Easily download Hi-Res panromas provided by users and Google Street View inside 
 
 # [Click HERE to install the script!](https://github.com/JDipi/Google-Earth-Pano-Downloader/raw/master/PanoDownloader.user.js)
 
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To use the script, simply enter into any panorama/360 view on Google Earth, then follow the below steps.
+To use the script, simply enter into any street view or photosphere view on Google Earth, then follow the following steps.
 
-#### 1. Click on "Report a problem" in the bottom left of the view.
+#### 1. Click on the "Report a problem" in the footer
 <img src="https://i.imgur.com/xIcytt6.png" width=400>
 
-#### 2. After being sent to a new page, press "Download Pano" at the top of the page.
+#### 2. Press the "Download Pano" botton at the top of the page
 <img src="https://i.imgur.com/SXKoFkN.png" width=400>
 
-#### 3. Simply wait for the download to finish and you're done! *This could take up to 2 minutes depending on your internet connection and the images resolution.*
+#### 3. Simply wait for the download to finish and you're done! 
+ - *Check the console for status updates*
+ - *The downloading and image processing takes a lot of memory, so if the page becomes temporarily unresponsive or hangs at all don't be scared!*
+ - *This could take up to 2 minutes depending on your internet connection and the images resolution.*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,6 +125,8 @@ If you have any trouble with installation, refer to the video below.
 
 - [ ] Make loading progress show on page instead of in console.
 - [ ] Remove the 'report a problem' process for a straighforward button elsewhere.
+- [ ] Add options to specify download quality and file name
+- [ ] Allow user to download depth maps
 
 See the [open issues](https://github.com/JDipi/Google-Earth-Pano-Downloader/issues) (there may be none) for a full list of proposed features and known issues.
 
