@@ -10,17 +10,26 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
+<div align="left">
+  
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+  [![MIT License][license-shield]][license-url]
+
+</div>
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+ <a href="[https://github.com/othneildrew/Best-README-Template](https://github.com/JDipi/Google-Earth-Pano-Downloader/)">
+    <img src="logo.png" alt="Logo" width="250">
+  </a>
+ 
+  
 
   <h1 align="center">Google Earth Pano-Downloader</h1>
   <h3>By JDipi</h3>
@@ -34,7 +43,6 @@
     <a href="https://github.com/JDipi/Google-Earth-Pano-Downloader/issues">Request Feature</a>
   </p>
 </div>
-
 
 
 <!-- TABLE OF CONTENTS -->
