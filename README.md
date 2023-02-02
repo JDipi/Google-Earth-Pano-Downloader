@@ -124,7 +124,7 @@ If you have any trouble with installation, refer to the video below.
 - [ ] Make loading progress show on page instead of in console.
 - [ ] Remove the 'report a problem' process for a straighforward button elsewhere.
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) (there may be none) for a full list of proposed features and known issues.
+See the [open issues](https://github.com/JDipi/Google-Earth-Pano-Downloader/issues) (there may be none) for a full list of proposed features and known issues.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
