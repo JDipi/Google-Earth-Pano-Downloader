@@ -86,8 +86,9 @@ To use the script, simply enter into any street view or photosphere view on Goog
 
 #### 3. Simply wait for the download to finish and you're done! 
  - *Check the console for status updates*
- - *The downloading and image processing takes a lot of memory, so if the page becomes temporarily unresponsive or hangs at all don't be scared!*
- - *This could take up to 2 minutes depending on your internet connection and the images resolution.*
+ - *The downloading and image processing takes a lot of memory, so if the page becomes temporarily unresponsive or hangs, don't be scared!*
+ - *Processing could take up to 2 minutes depending on your internet connection and the images resolution.*
+   - *Downloading a photosphere tends to take less time than a street view location because the stitching step is skipped.*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +114,7 @@ To get started downloading panoramas you will need to have the browser extension
 1. Select the browser you use from the options on the top.
 2. Select "Download" for Tampermonkey, **NOT** Tampermonkey Beta.
 3. Finish installing the extension on the new page.
-#### [Tampermonkey Install Here](https://www.tampermonkey.net/)
+#### [Install Tampermonkey Here](https://www.tampermonkey.net/)
 
 If you have any trouble with installation, refer to the video below.
 
