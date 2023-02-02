@@ -22,8 +22,8 @@
 <br />
 <div align="center">
 
-  <h3 align="center">Google Earth Pano-Downloader</h3>
-  <h4>By JDipi</h4>
+  <h1 align="center">Google Earth Pano-Downloader</h1>
+  <h3>By JDipi</h3>
   <p align="center">
     A small Tampermonkey script that allows for anyone to download any panorama from Google Street View.
     <br />
