@@ -31,13 +31,11 @@
  
   
 
-  <h1 align="center">Google Earth Pano-Downloader</h1>
+  <h1 align="center">Google Earth Panorama Downloader</h1>
   <h3>By JDipi</h3>
   <p align="center">
     A small Tampermonkey script that allows for anyone to download any panorama from Google Street View.
     <br />
-    <a href="https://github.com/JDipi/Google-Earth-Pano-Downloader">View Demo</a>
-    ·
     <a href="https://github.com/JDipi/Google-Earth-Pano-Downloader/issues">Report Bug</a>
     ·
     <a href="https://github.com/JDipi/Google-Earth-Pano-Downloader/issues">Request Feature</a>
